@@ -32,7 +32,7 @@ p {
 }
 
 .featured {
-  font-size:30px;
+  font-size: 30px;
 }
 
 .hero {
@@ -56,10 +56,22 @@ p {
   font-weight: bold;
 }
 
-.project-description {
+.about-section h1 {
+  font-size: 64px;
+  line-height: 80px;
+}
+.about-section h2 {
+  font-size: 18px;
+  font-weight: bold;
+  font-family: var(--default-font);
+}
+.project-description,
+.about-section {
   padding: 120px 60px;
 }
-
+.about-section-content {
+  margin: 30px;
+}
 .btn-contact {
   background: white;
   font-weight: bold;
@@ -82,13 +94,17 @@ p {
 
 @media (max-width: 960px) {
   h1 {
-    font-size: 60px;
+    font-size: 40px;
     line-height: 1.5;
   }
   h2 {
-    font-size: 41px;
+    font-size: 30px;
   }
 
+  .about-section {
+    text-align: center;
+    padding: 0;
+  }
   .hero {
     background: var(--secondary-color);
     text-align: center;
