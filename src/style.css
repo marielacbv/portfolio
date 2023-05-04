@@ -31,6 +31,11 @@ p {
   line-height: 30px;
 }
 
+a{
+  text-decoration: none;
+  color:white;
+}
+
 .featured {
   font-size: 30px;
 }
