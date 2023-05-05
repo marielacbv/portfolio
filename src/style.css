@@ -116,7 +116,13 @@ footer {
 }
 
 footer .social-links a {
-  margin: 0 15px;
+  color: white;
+  margin: 0 30px;
+  transition: all 100ms ease-in-out;
+}
+
+footer .social-links a:hover {
+  color: #a04160;
 }
 @media (max-width: 960px) {
   h1 {
