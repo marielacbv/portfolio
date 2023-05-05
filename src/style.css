@@ -4,6 +4,7 @@
   --primary-color: #1b1b1b;
   --secondary-color: #212121;
   --third-color: #2b3035;
+  --fouth-color: #a04160;
 }
 
 body {
@@ -39,7 +40,7 @@ a {
 
 footer {
   margin-top: 150px;
-  padding: 10px;
+  padding: 10px 0 0 0;
   background: var(--third-color);
 }
 
@@ -106,6 +107,11 @@ footer {
   padding: 15px 30px;
 }
 
+.btn-contact:hover {
+  background-color: var(--fouth-color);
+  font-weight: bold;
+}
+
 .btn-branding-outline {
   background: white;
   font-weight: bold;
@@ -116,15 +122,52 @@ footer {
   padding: 15px 30px;
 }
 
+.btn-branding-outline:hover {
+  background-color: var(--fouth-color);
+  font-weight: bold;
+}
+
 footer .social-links a {
   color: white;
-  margin: 0 30px;
+  margin: 0 10px;
   transition: all 100ms ease-in-out;
 }
 
 footer .social-links a:hover {
-  color: #a04160;
+  color: var(--fouth-color);
 }
+
+.github-dir {
+  margin-top: 0;
+  background: var(--third-color);
+}
+.github-dir a,
+.github-dir p {
+  font-size: 12px;
+  font-weight: bold;
+}
+.github-dir a {
+  text-decoration: underline;
+  color: var(--fouth-color);
+}
+
+.email,
+.linkedin,
+.twitter {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.email:hover,
+.linkedin:hover,
+.twitter:hover {
+  color: var(--fouth-color);
+}
+
+.content h1 {
+  font-size: 50px;
+}
+
 @media (max-width: 960px) {
   h1 {
     font-size: 40px;
